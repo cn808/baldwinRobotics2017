@@ -52,6 +52,7 @@ public class OperatorDriveCMD extends Command {
     	double z =		Robot.oi.jS1.getZ();
     	System.out.println("x="+x+"  y="+y+"   Twist="+z);
        	RobotMap.driveTrainControl.mecanumDrive_Cartesian(x,y,z,0);
+       	// debug System.out.println("Enc reading: " + RobotMap.driveTrainLeftENC.get());
 }
 
     // Make this return true when this Command no longer needs to run execute()
